@@ -1,0 +1,68 @@
+body {
+  background: black;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+p {
+  margin-top: 5em;
+  color: white;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+.button {
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: white;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 0.2em;
+  padding: 0.4em;
+  transition-duration: 0.4s;
+}
+
+.footer {
+  height:50px;
+  color: white;
+}
+
+/*#get-quote-button {
+}
+
+#get-tweet-button {
+}*/
+
+#quote {
+  border-left: 0.2em solid black;
+  padding-left: 0.5em;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 850;
+  font-family: 'Maitree', serif;
+  text-align: left;
+}
+
+#author {
+  font-size: 1.5em;
+  font-weight: lighter;
+  font-family: 'Maitree', serif;
+  text-align: right;
+}
+
+#maindiv {
+  background: url("../img/tree_bark.png");
+  margin-top: 4em;
+  margin-left: 10em;
+  margin-right: 10em;
+  padding: 2em;
+  border-radius: 1em;
+  border: 3px solid black;
+}
