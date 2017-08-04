@@ -8,15 +8,6 @@ body {
   margin: 0;
 }
 
-p {
-  margin-top: 5em;
-  color: white;
-}
-
-#wrapper {
-  min-height: 100%;
-}
-
 .button {
   margin: auto;
   font-family: 'Open Sans', sans-serif;
@@ -28,17 +19,6 @@ p {
   padding: 0.4em;
   transition-duration: 0.4s;
 }
-
-.footer {
-  height:50px;
-  color: white;
-}
-
-/*#get-quote-button {
-}
-
-#get-tweet-button {
-}*/
 
 #quote {
   border-left: 0.2em solid black;
@@ -57,7 +37,7 @@ p {
   text-align: right;
 }
 
-#maindiv {
+#quote-container {
   background: url("../img/tree_bark.png");
   margin-top: 4em;
   margin-left: 10em;
@@ -65,4 +45,48 @@ p {
   padding: 2em;
   border-radius: 1em;
   border: 3px solid black;
+}
+
+.desc-text {
+  margin-top: 5em;
+}
+
+.desc-text p {
+  margin: 0.4em auto;
+  font-size: 0.9em;
+  color: #ecf0f1;
+}
+
+.twitter-button {
+  background: url('../img/round_diamond_twitter.svg');
+  background-size: contain;
+  display: block;
+  margin: 10px auto;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+
+.twitter-button:hover {
+  cursor: pointer;
+}
+
+footer {
+  height: 50px;
+  color: #ecf0f1;
+  font-size: 0.7em;
+}
+
+footer a {
+  color: #EAD5E6;
+}
+
+footer a:hover {
+  background-color: #EAD5E6;
+  color: black;
+}
+
+footer a:active {
+  color: white;
 }

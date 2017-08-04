@@ -44,13 +44,13 @@ $(document).ready(function(){
     getQuote(data);
     randomBackground();
   });
-  // the button click
-  // $("#get-quote-button").click(function() {
-  //   $.getJSON(url, function(data){
-  //       getQuote(data);
-  //       randomBackground();
-  //   });
-  // });
+
+  $('#new-quote-text').click(function() {
+      $.getJSON(url, function(data){
+      getQuote(data);
+      randomBackground();
+    });
+  });
 
   // on keydown T
   $(document).keydown(function() {
