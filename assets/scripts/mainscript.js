@@ -1,6 +1,6 @@
 // url for calling the getJSON
 
-var url = "http://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&jsonp=?&lang=en";
+var url = "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&jsonp=?&lang=en";
 
 var quote = "";
 var author = "";
