@@ -11,15 +11,19 @@
   <title>Random Quote Generator</title>
 </head>
 <body id="body">
-  <div id="quote-container">
-    <div id="quote"></div>
-    <div id="author"></div>
+  <div id="quote-wrapper">
+    <div id="quote-container">
+      <div id="quote"></div>
+      <div id="author"></div>
+    </div>
   </div>
-  <div class="desc-text">
-    <p id="new-quote-text">Press Q or click this text to see a new quote.</p>
-    <p>Press T or click the button below to tweet the current quote.</p>
+  <div class="instruct-text">
+    <div class="desc-text">
+      <p id="new-quote-text">Press Q or click this text to see a new quote.</p>
+      <p>Press T or click the button below to tweet the current quote.</p>
+    </div>
+    <button class="twitter-button" onclick="getTweet()"></button>
+    <footer>Quotes from <a href="https://forismatic.com/en/api/" target="blank">Forismatic's quote API</a>.</footer>
   </div>
-  <button class="twitter-button" onclick="getTweet()"></button>
-  <footer>Quotes from <a href="https://forismatic.com/en/api/" target="blank">Forismatic's quote API</a>.</footer>
 </body>
 </html>
