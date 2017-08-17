@@ -53,14 +53,14 @@ $(document).ready(function(){
   });
 
   // on keydown T
-  $(document).keydown(function() {
+  $(document).keydown(function(event) {
     if (event.keyCode == 84) {
       getTweet();
     }
   });
 
   // on keydown Q
-  $(document).keydown(function() {
+  $(document).keydown(function(event) {
     if (event.keyCode == 81) {
       $.getJSON(url, function(data){
         getQuote(data);
